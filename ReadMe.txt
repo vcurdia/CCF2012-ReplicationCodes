@@ -1,51 +1,47 @@
-# CCF-LSAP-MacroEffects
+Codes description
+=================
 
-[![License](https://img.shields.io/badge/license-BSD%203--clause-green.svg)](LICENSE)
 
 These codes reproduce the results in:
 
-**Chen, H., Cúrdia, V., and Ferrero,
-A. (2012)**
-[The Macroeconomic Effects of Large-Scale Asset Purchase Programs](http://onlinelibrary.wiley.com/doi/10.1111/j.1468-0297.2012.02549.x/abstract) 
-*The Economic Journal*, 122, pp. 289-315.
+Chen, H., C�rdia, V., and Ferrero, A. (2012) ``The Macroeconomic Effects of 
+Large-Scale Asset Purchase Programs.'' The Economic Journal, 122, pp. 289-315.
+
+Created: April 21, 2014 by Vasco Curdia
 
 
-# Requirements
 
-## Matlab (R)
-The codes were tested using Matlab (R) R1012a with the following toolboxes
+Software requirements:
+----------------------
+
+The codes were tested with the following software installed:
+
+Matlab R1012a
 - Symbolic Toolbox
 - Statistical Toolbox
 - Optimization Toolbox
 
-## LaTeX
-LaTeX is used by some tools to compile certain documents.
-
-`epstopdf`, included in most LaTeX releases, is used by some tools.
-
-## Additional Matlab (R) codes needed in Matlab (R) path
-- [VC-Tools v1.5.0](https://github.com/vcurdia/VC-Tools/releases/tag/v1.5.0)
-  by [Vasco Cúrdia](http://www.frbsf.org/economic-research/economists/vasco-curdia/)
-- [VC-BayesianEstimation v1.5.0](https://github.com/vcurdia/VC-BayesianEstimation/releases/tag/v1.5.0)
-  by [Vasco Cúrdia](http://www.frbsf.org/economic-research/economists/vasco-curdia/)
-- [gensys](http://sims.princeton.edu/yftp/gensys/)
-  by [Chris Sims](http://www.princeton.edu/~sims/)
-- [optimize](http://dge.repec.org/codes/sims/optimize/)
-  by [Chris Sims](http://www.princeton.edu/~sims/)
-- [KF](http://sims.princeton.edu/yftp/Times09/KFmatlab/)
-  by [Chris Sims](http://www.princeton.edu/~sims/)
-
+It also uses the following:
+- MikTex
+- Ghostscript
+- epstopdf
 
 The codes described in here require several auxiliary codes included in the
 auxiliary zip files with the following names:
 - Vasco Curdia
   * Curdia_BayesianEstimation
   * Curdia_Misc
+- Chris Sims
+  * Sims_gensys
+  * Sims_optimize
+  * Sims_misc (Kalman filter)
+All of the codes contained in these packages need to be in the Matlab path.
 
 
-# Description of Replication Codes
+Replication Codes
+-----------------
 
-## Estimation
+1. Estimation
 
 - RPRatioSetDSGE.m
   Sets up the model for estimation and runs all the steps for estimation
@@ -86,7 +82,7 @@ Table 2 in the paper is a slight modification of the first table in the report
 for the last estimation stage.
 
 
-## Model simulations
+2. Model simulations
 
 - BLMVBSimSetup.m
   Sets up the model for simulations, with some additional variables that were 
@@ -114,3 +110,5 @@ for the last estimation stage.
     * MakeFig5.m
   The corresponding figures in pdf format are saved in subdirectories.
 
+  
+  
