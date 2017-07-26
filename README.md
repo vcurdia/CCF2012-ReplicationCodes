@@ -2,10 +2,8 @@
 
 [![License](https://img.shields.io/badge/license-BSD%203--clause-green.svg)](LICENSE)
 
-These codes reproduce the results in:
-
-**Chen, H., Cúrdia, V., and Ferrero,
-A. (2012)**
+These codes reproduce the results in:  
+**Chen, H., Cúrdia, V., and Ferrero, A. (2012)**
 [The Macroeconomic Effects of Large-Scale Asset Purchase Programs](http://onlinelibrary.wiley.com/doi/10.1111/j.1468-0297.2012.02549.x/abstract) 
 *The Economic Journal*, 122, pp. 289-315.
 
@@ -34,13 +32,6 @@ LaTeX is used by some tools to compile certain documents.
   by [Chris Sims](http://www.princeton.edu/~sims/)
 - [KF](http://sims.princeton.edu/yftp/Times09/KFmatlab/)
   by [Chris Sims](http://www.princeton.edu/~sims/)
-
-
-The codes described in here require several auxiliary codes included in the
-auxiliary zip files with the following names:
-- Vasco Curdia
-  * Curdia_BayesianEstimation
-  * Curdia_Misc
 
 
 # Description of Replication Codes
