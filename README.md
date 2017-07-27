@@ -8,6 +8,8 @@ These codes reproduce the results in:
 [The Macroeconomic Effects of Large-Scale Asset Purchase Programs](http://onlinelibrary.wiley.com/doi/10.1111/j.1468-0297.2012.02549.x/abstract)  
 *The Economic Journal*, 122, pp. 289-315.
 
+[Technical Appendix](CCF_LSAP_MacroEffects_Appendix.pdf)
+
 
 # Requirements
 
