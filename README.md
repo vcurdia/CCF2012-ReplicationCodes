@@ -22,7 +22,7 @@ LaTeX is used by some tools to compile certain documents.
 
 `epstopdf`, included in most LaTeX releases, is used by some tools.
 
-## Additional Matlab (R) codes needed in Matlab (R) path
+## Additional codes needed
 - [VC-Tools](https://github.com/vcurdia/VC-Tools)
   by
   [Vasco Cúrdia](http://www.frbsf.org/economic-research/economists/vasco-curdia/), 
