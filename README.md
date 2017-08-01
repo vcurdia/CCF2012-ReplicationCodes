@@ -10,6 +10,8 @@ These codes reproduce the results in:
 
 [Technical Appendix](CCF_LSAP_MacroEffects_Appendix.pdf)
 
+These replication codes are available online at:  
+https://github.com/vcurdia/CCF-LSAP-MacroEffects
 
 # Requirements
 
