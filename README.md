@@ -26,23 +26,23 @@ LaTeX is used by some tools to compile certain documents.
 
 `epstopdf`, included in most LaTeX releases, is used by some tools.
 
-## Additional codes needed
-- [VC-Tools](https://github.com/vcurdia/VC-Tools)
-  ([v1.5.0](https://github.com/vcurdia/VC-Tools/releases/tag/v1.5.0))
-  by
-  [Vasco Cúrdia](http://www.frbsf.org/economic-research/economists/vasco-curdia/), 
-  included in folder `VC-Tools`
-- [VC-BayesianEstimation](https://github.com/vcurdia/VC-BayesianEstimation)
-  by
-  [Vasco Cúrdia](http://www.frbsf.org/economic-research/economists/vasco-curdia/),
+## Additional codes and packages
+
+Codes from 
+[Vasco Cúrdia](http://www.frbsf.org/economic-research/economists/vasco-curdia/):
+- [VC-Tools](https://github.com/vcurdia/VC-Tools), 
+  version 
+  [v1.5.0](https://github.com/vcurdia/VC-Tools/releases/tag/v1.5.0)
+- [VC-BayesianEstimation](https://github.com/vcurdia/VC-BayesianEstimation),
   version
-  [v1.5.0](https://github.com/vcurdia/VC-Bayesian/releases/tag/v1.5.0)
+  [v1.5.0](https://github.com/vcurdia/VC-BayesianEstimation/releases/tag/v1.5.0)
+  
+Codes from [Chris Sims](http://www.princeton.edu/~sims/):
 - [gensys](http://sims.princeton.edu/yftp/gensys/)
-  by [Chris Sims](http://www.princeton.edu/~sims/)
 - [optimize](http://dge.repec.org/codes/sims/optimize/)
-  by [Chris Sims](http://www.princeton.edu/~sims/)
 - [KF](http://sims.princeton.edu/yftp/Times09/KFmatlab/)
-  by [Chris Sims](http://www.princeton.edu/~sims/)
+
+All auxiliary codes included in this repository in subfolders.
 
 
 # Description of Replication Codes
@@ -116,6 +116,6 @@ missing files:
 - `MakeFig4.m`
 - `MakeFig5.m`
 
-The corresponding figures in pdf format are saved in subdirectories.
+The corresponding figures in pdf format are saved in subfolders.
 
 
