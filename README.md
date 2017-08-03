@@ -28,10 +28,10 @@ LaTeX is used by some tools to compile certain documents.
 
 ## Additional codes needed
 - [VC-Tools](https://github.com/vcurdia/VC-Tools)
+  ([v1.5.0](https://github.com/vcurdia/VC-Tools/releases/tag/v1.5.0))
   by
   [Vasco Cúrdia](http://www.frbsf.org/economic-research/economists/vasco-curdia/), 
-  version 
-  [v1.5.0](https://github.com/vcurdia/VC-Tools/releases/tag/v1.5.0)
+  included in folder `VC-Tools`
 - [VC-BayesianEstimation](https://github.com/vcurdia/VC-BayesianEstimation)
   by
   [Vasco Cúrdia](http://www.frbsf.org/economic-research/economists/vasco-curdia/),
